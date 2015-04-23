@@ -82,3 +82,30 @@ a lot less useful
   "style": "17th century",
 }
 ```
+
+We could also "combine" certain fields. Here `accession_number` and `title`:
+
+```json
+{
+  "accession_number": "78.63.1-2",
+  "artist": "Antonio Montauti",
+  "continent": "Europe",
+  "country": "Italy",
+  "creditline": "The Putnam Dana McMillan Fund",
+  "culture": null,
+  "dated": "c. 1710",
+  "life_date": "Italian, 1683-1746",
+  "marks": " ",
+  "medium": "Bronze",
+  "nationality": "Italian",
+  "provenance": "",
+  "restricted": 0,
+  "role": "Artist",
+  "room": "G310",
+  "style": "18th century",
+  "title": "Leda and the Swan and Ganymede and the Eagle"
+}
+```
+
+This is pretty much the exact metadata I want in the composite
+object
